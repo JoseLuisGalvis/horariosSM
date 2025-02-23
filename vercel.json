@@ -1,8 +1,7 @@
 {
     "version": 2,
     "routes": [
-      { "src": "/JSON/(.*)", "dest": "/JSON/$1" },
-      { "src": "/(.*)", "dest": "/index.html" }
+        { "src": "/JSON/(.*)", "dest": "/public/JSON/$1" },
+        { "src": "/(.*)", "dest": "/index.html" }
     ]
-  }
-  
+}
